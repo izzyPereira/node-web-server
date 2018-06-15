@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Data</title>
+    <style>
+        body {
+            width:auto;
+            height:auto;
+            margin:0;
+            background-color:crimson;
+            font-family: sans-serif;
+        }
+        header {
+            width:auto;
+            height:30px;
+            margin:auto;
+            margin-top:0;
+            background-color:blue;
+            color:azure;
+            text-align: center;
+        }
+
+        #container {
+            width:1200px;
+            height:1000px;
+            margin:auto;
+            background-color:cadetblue;
+        }
+        #articleHeader{
+            width:780px;
+            height:180px;
+            margin:auto;
+            margin-top:0;
+            margin-bottom:0;
+            background-color:chocolate;
+            padding:10px;
+        }
+        #articleTitle {
+            font-weight: bold;
+            font-size: 24p;
+        }
+
+        #articleBody {
+            width:780px;
+            height:380px;
+            margin:auto;
+            margin-top:0;
+            margin-bottom:0;
+            background-color: bisque;
+            padding:10px;
+        }
+        #articleText {
+            font-size:12p;
+        }
+    </style>
+</head>
+<body>
+    <header>{{headerTitle}}</header>
+    <section id="container">
+        <div id="articleHeader">
+            <div id="articleTitle">{{title}}</div>
+        </div>
+        <div id="articleBody">
+            <div id="articleText">{{text}}</div>
+        </div>
+    </section>
+</body>
+</html>
